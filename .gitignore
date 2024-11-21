@@ -1,0 +1,17 @@
+```plaintext
+# Arquivos compilados
+__pycache__/
+*.py[cod]
+
+# Ambiente virtual
+env/
+venv/
+
+# Configurações de IDE
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
