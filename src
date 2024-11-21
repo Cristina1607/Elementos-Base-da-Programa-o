@@ -1,0 +1,20 @@
+# Constante
+PI = 3.14159
+
+#Variavel
+Raio2 = 0
+Altura = 0
+Volume = 0
+Area_Base = 0
+
+#Entrada de Dados
+Raio2 = int(input("Digite o raio do cilindro: "))
+Altura = int(input("Digite a altura do cilindro: "))
+
+#Calculo
+Volume = PI * Raio2 * Altura
+Area_Base = PI * Raio2
+
+#Saída de Dados
+print(f"O volume da base do cilindro é: {Volume}")
+print(f"A área da base do cilindro é: {Area_Base}")
